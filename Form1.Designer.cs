@@ -47,42 +47,46 @@ namespace lab2CrudOperation
             // 
             // btnInsert
             // 
+            btnInsert.BackColor = SystemColors.HotTrack;
             btnInsert.Location = new Point(26, 320);
             btnInsert.Name = "btnInsert";
             btnInsert.Size = new Size(75, 23);
             btnInsert.TabIndex = 4;
             btnInsert.Text = "Insert";
-            btnInsert.UseVisualStyleBackColor = true;
+            btnInsert.UseVisualStyleBackColor = false;
             btnInsert.Click += btnInsert_Click;
             // 
             // btnUpdate
             // 
+            btnUpdate.BackColor = SystemColors.HotTrack;
             btnUpdate.Location = new Point(191, 320);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(75, 23);
             btnUpdate.TabIndex = 5;
             btnUpdate.Text = "Update";
-            btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.UseVisualStyleBackColor = false;
             btnUpdate.Click += btnUpdate_Click;
             // 
             // btnDelete
             // 
+            btnDelete.BackColor = SystemColors.HotTrack;
             btnDelete.Location = new Point(349, 320);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(75, 23);
             btnDelete.TabIndex = 6;
             btnDelete.Text = "Delete";
-            btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.UseVisualStyleBackColor = false;
             btnDelete.Click += btnDelete_Click;
             // 
             // btnView
             // 
+            btnView.BackColor = SystemColors.HotTrack;
             btnView.Location = new Point(471, 320);
             btnView.Name = "btnView";
             btnView.Size = new Size(75, 23);
             btnView.TabIndex = 7;
             btnView.Text = "View";
-            btnView.UseVisualStyleBackColor = true;
+            btnView.UseVisualStyleBackColor = false;
             btnView.Click += btnView_Click;
             // 
             // txtAddress
@@ -116,7 +120,8 @@ namespace lab2CrudOperation
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(26, 52);
+            label1.ForeColor = SystemColors.Highlight;
+            label1.Location = new Point(16, 52);
             label1.Name = "label1";
             label1.Size = new Size(17, 15);
             label1.TabIndex = 8;
@@ -125,7 +130,8 @@ namespace lab2CrudOperation
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(26, 120);
+            label2.ForeColor = SystemColors.MenuHighlight;
+            label2.Location = new Point(14, 120);
             label2.Name = "label2";
             label2.Size = new Size(39, 15);
             label2.TabIndex = 9;
@@ -134,7 +140,8 @@ namespace lab2CrudOperation
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(26, 189);
+            label3.ForeColor = SystemColors.MenuHighlight;
+            label3.Location = new Point(16, 189);
             label3.Name = "label3";
             label3.Size = new Size(27, 15);
             label3.TabIndex = 10;
@@ -143,7 +150,8 @@ namespace lab2CrudOperation
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(12, 256);
+            label4.ForeColor = SystemColors.Highlight;
+            label4.Location = new Point(16, 256);
             label4.Name = "label4";
             label4.Size = new Size(49, 15);
             label4.TabIndex = 11;
@@ -159,19 +167,20 @@ namespace lab2CrudOperation
             // 
             // btnSearch
             // 
+            btnSearch.BackColor = SystemColors.HotTrack;
             btnSearch.Location = new Point(609, 320);
             btnSearch.Name = "btnSearch";
             btnSearch.Size = new Size(75, 23);
             btnSearch.TabIndex = 13;
             btnSearch.Text = "Search";
-            btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.UseVisualStyleBackColor = false;
             btnSearch.Click += btnSearch_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(839, 450);
             Controls.Add(btnSearch);
             Controls.Add(dgvEmployees);
             Controls.Add(label4);
